@@ -1,7 +1,7 @@
 """
 Base class for Scrapy commands
 """
-import os
+import os 
 from optparse import OptionGroup
 from twisted.python import failure
     
