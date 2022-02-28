@@ -7,7 +7,7 @@ from twisted.python import failure
     
 from scrapy.utils.conf import arglist_to_dict 
 from scrapy.exceptions import UsageError    
-  
+   
 
 class ScrapyCommand(object):
 
