@@ -1,6 +1,6 @@
 import os
 from doctest import ELLIPSIS, NORMALIZE_WHITESPACE
-
+ 
 from scrapy.http.response.html import HtmlResponse 
 from sybil import Sybil 
 from sybil.parsers.codeblock import CodeBlockParser 
