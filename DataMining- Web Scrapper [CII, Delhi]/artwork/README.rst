@@ -9,7 +9,7 @@ scrapy-logo.jpg
 
 Main Scrapy logo, in JPEG format.
 
-qlassik.zip
+qlassik.zip 
 -----------
  
 Font used for Scrapy logo. Homepage: https://www.dafont.com/qlassik.font
