@@ -7,7 +7,7 @@ from sybil.parsers.codeblock import CodeBlockParser
 from sybil.parsers.doctest import DocTestParser   
 from sybil.parsers.skip import skip  
 
-
+ 
 def load_response(url, filename):
     input_path = os.path.join(os.path.dirname(__file__), '_tests', filename)
     with open(input_path, 'rb') as input_file:
