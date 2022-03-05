@@ -2,7 +2,7 @@
 Scrapy artwork
 ==============
 
-This folder contains Scrapy artwork resources such as logos and fonts.
+This folder contains Scrapy artwork resources such as logos and fonts. 
 
 scrapy-logo.jpg 
 ---------------    
