@@ -6,7 +6,7 @@ This folder contains Scrapy artwork resources such as logos and fonts.
 
 scrapy-logo.jpg 
 ---------------    
-
+ 
 Main Scrapy logo, in JPEG format.
 
 qlassik.zip 
