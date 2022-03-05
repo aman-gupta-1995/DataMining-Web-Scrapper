@@ -5,7 +5,7 @@ from scrapy.http.response.html import HtmlResponse
 from sybil import Sybil 
 from sybil.parsers.codeblock import CodeBlockParser 
 from sybil.parsers.doctest import DocTestParser   
-from sybil.parsers.skip import skip
+from sybil.parsers.skip import skip 
 
 
 def load_response(url, filename):
