@@ -18,3 +18,4 @@ scrapy-blog.logo.xcf
 --------------------
 
 The logo used in Scrapy blog, in Gimp format.
+ 
