@@ -8,7 +8,7 @@ scrapy-logo.jpg
 ---------------    
  
 Main Scrapy logo, in JPEG format.
-
+ 
 qlassik.zip 
 -----------
  
