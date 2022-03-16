@@ -32,7 +32,7 @@ class Root(Resource):
 
         self.tail.appendleft(delta)
         self.lasttime = now
-        self.concurrent += 1
+        self.concurrent += 1 
 
         if now - self.lastmark >= 3:
             self.lastmark = now
