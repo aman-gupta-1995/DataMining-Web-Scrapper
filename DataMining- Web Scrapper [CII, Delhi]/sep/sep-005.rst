@@ -25,7 +25,7 @@ Item class for examples:
 gSetting expanders
 ==================
 
-::
+:: 
 
    #!python
    class NewsItemBuilder(ItemBuilder):
