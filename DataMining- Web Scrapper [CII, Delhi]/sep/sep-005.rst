@@ -7,7 +7,7 @@ Status   Obsoleted by :doc:`sep-008`
 =======  ==============================
 
 =========================================
-SEP-005: Detailed ``ItemBuilder`` API use 
+SEP-005: Detailed ``ItemBuilder`` API use  
 =========================================
 
 Item class for examples:
