@@ -15,7 +15,6 @@ install:
   - "SET PYTHONPATH=%APPVEYOR_BUILD_FOLDER%"
   - "SET TOX_TESTENV_PASSENV=HOME HOMEDRIVE HOMEPATH PYTHONPATH USERPROFILE"
   - "pip install -U tox"
-
 build: false
 skip_tags: true
 test_script:
