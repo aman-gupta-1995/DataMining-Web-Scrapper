@@ -6,7 +6,7 @@ environment:
       TOX_ENV: py36
  
 branches:
-  only:
+  only: 
     - master
     - /d+\.\d+\.\d+[\w\-]*$/
 
