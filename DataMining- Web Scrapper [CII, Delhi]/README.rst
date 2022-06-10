@@ -3,7 +3,7 @@ Scrapy
 ====== 
 
 .. image:: https://img.shields.io/pypi/v/Scrapy.svg     
-   :target: https://pypi.python.org/pypi/Scrapy  
+   :target: https://pypi.python.org/pypi/Scrapy   
    :alt: PyPI Version 
   
 .. image:: https://img.shields.io/pypi/pyversions/Scrapy.svg
