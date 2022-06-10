@@ -1,6 +1,6 @@
 TRIAL := $(shell which trial)
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
-export PYTHONPATH=$(PWD)
+export PYTHONPATH=$(PWD) 
  
 test: 
 	coverage run --branch $(TRIAL) --reporter=text tests  
