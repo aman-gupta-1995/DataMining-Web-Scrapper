@@ -7,7 +7,7 @@ with open(join(dirname(__file__), 'scrapy/VERSION'), 'rb') as f:
     version = f.read().decode('ascii').strip()
 
 
-def has_environment_marker_platform_impl_support():
+def has_environment_marker_platform_impl_support(): 
     """Code extracted from 'pytest/setup.py'
     https://github.com/pytest-dev/pytest/blob/7538680c/setup.py#L31
 
