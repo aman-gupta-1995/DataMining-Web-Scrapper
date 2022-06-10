@@ -1,7 +1,7 @@
 TRIAL := $(shell which trial)
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 export PYTHONPATH=$(PWD)
-
+ 
 test:
 	coverage run --branch $(TRIAL) --reporter=text tests
 	rm -rf htmlcov && coverage html
