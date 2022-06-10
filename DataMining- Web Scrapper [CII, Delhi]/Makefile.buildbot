@@ -3,7 +3,7 @@ BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 export PYTHONPATH=$(PWD)
  
 test: 
-	coverage run --branch $(TRIAL) --reporter=text tests
+	coverage run --branch $(TRIAL) --reporter=text tests 
 	rm -rf htmlcov && coverage html
 	-s3cmd sync -P htmlcov/ s3://static.scrapy.org/coverage-scrapy-$(BRANCH)/
 
