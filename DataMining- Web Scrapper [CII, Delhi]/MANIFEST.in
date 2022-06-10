@@ -9,7 +9,7 @@ include scrapy/VERSION
 include scrapy/mime.types
 
 include codecov.yml
-include conftest.py
+include conftest.p
 include pytest.ini
 include requirements-*.txt
 include tox.ini
