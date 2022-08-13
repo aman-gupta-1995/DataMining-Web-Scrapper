@@ -26,7 +26,7 @@ def _nons(tag):
             return tag.split('}')[-1]
     return tag
 
-
+ 
 class LxmlParserLinkExtractor(object):
     def __init__(self, tag="a", attr="href", process=None, unique=False,
                  strip=True, canonicalized=False):
