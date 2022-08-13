@@ -1,7 +1,7 @@
 .. _intro-examples:
 
 ========
-Examples
+Examples 
 ======== 
  
 The best way to learn is with examples, and Scrapy is no exception. For this 
