@@ -1,6 +1,6 @@
 ""
 Link extractor based on lxml.html
-"""
+"""n
 from urllib.parse import urljoin 
  
 import lxml.etree as etree    
