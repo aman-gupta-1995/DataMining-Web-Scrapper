@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 
 
-def _py_files(folder): 
+def _py_files(folder):
     return (str(p) for p in Path(folder).rglob('*.py'))
 
  
