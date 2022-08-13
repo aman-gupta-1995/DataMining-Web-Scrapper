@@ -1,4 +1,4 @@
-"""
+""
 Link extractor based on lxml.html
 """
 from urllib.parse import urljoin 
