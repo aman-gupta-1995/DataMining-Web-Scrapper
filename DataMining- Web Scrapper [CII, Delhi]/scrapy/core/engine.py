@@ -6,7 +6,7 @@ For more information see docs/topics/architecture.rst
 """ 
 import logging
 from time import time  
-  
+   
 from twisted.internet import defer, task  
 from twisted.python.failure import Failure
 
