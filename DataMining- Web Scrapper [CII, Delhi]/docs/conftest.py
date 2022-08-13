@@ -22,7 +22,7 @@ pytest_collect_file = Sybil(
     parsers=[
         DocTestParser(optionflags=ELLIPSIS | NORMALIZE_WHITESPACE),
         CodeBlockParser(future_imports=['print_function']),
-        skip,
+        skip, 
     ],
     pattern='*.rst',
     setup=setup,
