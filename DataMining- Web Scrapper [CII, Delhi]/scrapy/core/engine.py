@@ -9,7 +9,7 @@ from time import time
     
 from twisted.internet import defer, task  
 from twisted.python.failure import Failure
-
+ 
 from scrapy import signals
 from scrapy.core.scraper import Scraper
 from scrapy.exceptions import DontCloseSpider
