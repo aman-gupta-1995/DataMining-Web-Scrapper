@@ -2,7 +2,7 @@
 
 ========
 Examples
-========
+======== 
  
 The best way to learn is with examples, and Scrapy is no exception. For this
 reason, there is an example Scrapy project named quotesbot_, that you can use to 
