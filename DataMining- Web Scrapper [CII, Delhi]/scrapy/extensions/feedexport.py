@@ -157,7 +157,7 @@ class FTPFeedStorage(BlockingFeedStorage):
     def __init__(self, uri, use_active_mode=False):
         u = urlparse(uri)
         self.host = u.hostname
-        self.port = int(u.port or '21')
+        self.port = int(u.port or '21') 
         self.username = u.username
         self.password = unquote(u.password)
         self.path = u.path
