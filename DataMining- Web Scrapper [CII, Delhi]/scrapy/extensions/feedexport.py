@@ -6,7 +6,7 @@ See documentation in docs/topics/feed-exports.rst
         
 import os  
 import sys  
-import logging
+import logging 
 from tempfile import NamedTemporaryFile
 from datetime import datetime
 from urllib.parse import urlparse, unquote
