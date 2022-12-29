@@ -309,3 +309,4 @@ class FeedExporter(object):
         params['time'] = ts
         self._uripar(params, spider)
         return params
+ 
