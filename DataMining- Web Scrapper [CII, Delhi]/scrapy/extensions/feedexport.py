@@ -1,5 +1,5 @@
 """
-Feed Exports extension
+Feed Exports extension 
  
 See documentation in docs/topics/feed-exports.rst         
 """              
