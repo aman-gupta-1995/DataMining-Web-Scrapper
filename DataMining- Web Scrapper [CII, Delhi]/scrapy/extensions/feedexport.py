@@ -158,7 +158,7 @@ class FTPFeedStorage(BlockingFeedStorage):
         u = urlparse(uri)
         self.host = u.hostname
         self.port = int(u.port or '21') 
-        self.username = u.username
+        self.username = u.username 
         self.password = unquote(u.password)
         self.path = u.path
         self.use_active_mode = use_active_mode
