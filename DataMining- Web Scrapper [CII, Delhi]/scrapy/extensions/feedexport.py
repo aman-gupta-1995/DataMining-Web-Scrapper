@@ -305,7 +305,7 @@ class FeedExporter(object):
         params = {}
         for k in dir(spider):
             params[k] = getattr(spider, k)
-        ts = datetime.utcnow().replace(microsecond=0).isoformat().replace(':', '-')
+        ts = datetime.utcnow().replace(microsecond=0).isoformat().replace(':', '-') 
         params['time'] = ts
         self._uripar(params, spider)
         return params
