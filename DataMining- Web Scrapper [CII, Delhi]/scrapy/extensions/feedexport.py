@@ -308,5 +308,5 @@ class FeedExporter(object):
         ts = datetime.utcnow().replace(microsecond=0).isoformat().replace(':', '-') 
         params['time'] = ts
         self._uripar(params, spider)
-        return params
+        return params 
  
