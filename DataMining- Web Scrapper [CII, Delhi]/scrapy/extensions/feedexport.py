@@ -154,7 +154,7 @@ class S3FeedStorage(BlockingFeedStorage):
 
 class FTPFeedStorage(BlockingFeedStorage):
 
-    def __init__(self, uri, use_active_mode=False):
+    def __init__(self, uri, use_active_mode=False): 
         u = urlparse(uri)
         self.host = u.hostname
         self.port = int(u.port or '21') 
