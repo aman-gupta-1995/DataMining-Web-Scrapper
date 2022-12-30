@@ -5,7 +5,7 @@ See documentation in docs/topics/feed-exports.rst
 """             
                      
 import os           
-import sys  
+import sys   
 import logging  
 from tempfile import NamedTemporaryFile
 from datetime import datetime
